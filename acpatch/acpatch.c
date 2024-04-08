@@ -522,7 +522,7 @@ void util_replace_object(
 
 int main(int argc, char** argv) {
     FILE* db;
-    if (argc < 3 || argc > 4) {
+    if (argc < 3 || argc > 5) {
         printf("Usage:\n");
         printf("acpatch l <datfile>                       list contents of database\n");
         printf("acpatch x <datfile> <object> <tofile>     export object\n");
